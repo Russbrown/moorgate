@@ -1,3 +1,4 @@
 fuel/app/logs/*/*/*
 fuel/app/cache/*/*
 /fuel/application/config/database.php
+.sass-cache

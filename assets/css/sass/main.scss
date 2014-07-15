@@ -26,11 +26,13 @@
 
 // Basic
 body {
-	background: #fff;
-	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #444;
+	background: url('../images/bg.png');
+	font: 14px/21px 'Lato', serif;
+	color: $dark-blue;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
 }
 
 // Links

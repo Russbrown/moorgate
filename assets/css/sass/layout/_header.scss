@@ -1,2 +1,34 @@
-// header
+.page-header {
+	background: url('../images/header-bg.jpg');
+	height: 120px;
+	padding: 10px 20px;
 
+	.header__contact {
+		float: right;
+
+		h2 {
+			font-size: 1.2em;
+			line-height: 1em;
+			margin-bottom: 1em;
+			text-align: right;
+		}
+
+		h2:first-child:before {
+			font-family: fontAwesome;
+			content: '\f124';
+			font-size: 1.8em;
+			position: relative;
+			top: 3px;
+			color: $burnt-orange;
+		}
+
+		h2:last-child:before {
+			font-family: fontAwesome;
+			content: '\f095';
+			font-size: 1.8em;
+			position: relative;
+			top: 7px;
+			color: $burnt-orange;
+		}
+	}
+}
