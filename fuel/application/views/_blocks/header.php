@@ -32,7 +32,7 @@
 	<div class="page">
 		<div class="wrapper">
 			<header class="page-header">
-				<div class="logo"></div>
+				<div class="header__logo"></div>
 				<div class="header__contact">
 					<h2><?php // echo fuel_var('address'); ?> 10 king road, Sheffield S11 9XX</h2>
 					<h2><?php // echo fuel_var('phone'); ?>  0114 232 232</h2>

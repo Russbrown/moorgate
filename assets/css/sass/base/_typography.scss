@@ -2,7 +2,8 @@
 
 h1, h2, h3, h4, h5, h6 {
 	color: $dark-blue;
-	font-family: 'Lato', sans-serif;
+	font-family: 'lato', sans-serif;
+	// font-family: 'axisbold', sans-serif;
 	text-transform: uppercase;
 	font-weight: 900; 
 }
@@ -23,13 +24,14 @@ em { font-style: italic; }
 strong { font-weight: bold; color: #333; }
 small { font-size: 80%; }
 
-/*	@font-face {
-	    font-family: 'FontName';
-	    src: url('../fonts/FontName.eot');
-	    src: url('../fonts/FontName.eot?iefix') format('eot'),
-	         url('../fonts/FontName.woff') format('woff'),
-	         url('../fonts/FontName.ttf') format('truetype'),
-	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
-	    font-weight: normal;
-	    font-style: normal; }
-*/
+@font-face {
+    font-family: 'axisbold';
+    src: url('../fonts/axis-webfont.eot');
+    src: url('../fonts/axis-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/axis-webfont.woff') format('woff'),
+         url('../fonts/axis-webfont.ttf') format('truetype'),
+         url('../fonts/axis-webfont.svg#axisbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

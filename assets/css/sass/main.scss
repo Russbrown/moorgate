@@ -27,7 +27,8 @@
 // Basic
 body {
 	background: url('../images/bg.png');
-	font: 14px/21px 'Lato', serif;
+	font: 14px/21px 'lato', serif;
+	// font: 14px/21px 'axisbold', serif;
 	color: $dark-blue;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
