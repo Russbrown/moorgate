@@ -270,6 +270,7 @@ input::-moz-focus-inner {
   background: url("../images/header-bg.jpg");
   height: 120px;
   padding: 10px 20px;
+  border-bottom: 6px solid #e16929;
 }
 .page-header .header__contact {
   float: right;
@@ -279,6 +280,7 @@ input::-moz-focus-inner {
   line-height: 1em;
   margin-bottom: 1em;
   text-align: right;
+  color: #fff;
 }
 .page-header .header__contact h2:first-child:before {
   font-family: fontAwesome;
@@ -371,7 +373,7 @@ body {
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%;
-  max-width: 1024px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
