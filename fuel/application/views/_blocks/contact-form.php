@@ -1,4 +1,4 @@
-<form class="form sidebar text-padding">
+<form action="enquiry/contact" method="POST" class="form sidebar text-padding">
 	<h2>Contact Us</h2>
 	<input type="text" name="name" placeholder="name" required />
 	<input type="tel" name="phone" placeholder="phone" required />
