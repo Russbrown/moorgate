@@ -1,10 +1,35 @@
 			</div>
 	</div>
-	<div class="wrapper">
-	<footer class="row footer">
+	<footer class="row footer text-padding">
+
+		<div class="third">
+			<h2 class="h4">Opening Times:</h2>
+			<div class="footer-info">
+				<span class="label">Mon-fri</span><span class="data"><?php echo fuel_var('opening-hours-mon-fri'); ?></span>
+				<span class="label">Saturday</span><span class="data"><?php echo fuel_var('opening-hours-sat'); ?></span>
+				<span class="label">Sunday</span><span class="data"><?php echo fuel_var('opening-hours-sun'); ?></span>
+			</div>
+		</div>
+
+		<div class="third centre-align">
+			<h2 class="h4">Address:</h2>
+			<div class="footer-info">
+				<span class="clear"><?php echo fuel_var('address_line_1'); ?></span>
+				<span class="clear"><?php echo fuel_var('address_line_2'); ?></span>
+				<span class="clear"><?php echo fuel_var('postcode'); ?></span>
+			</div>
+		</div>
+
+		<div class="third right-align">
+			<h2 class="h4">Contact Us:</h2>
+			<div class="footer-info">
+				<span class="clear"><?php echo fuel_var('phone'); ?></span>
+				<span class="clear"><?php echo fuel_var('email'); ?></span>
+			</div>
+		</div>
+
 		<p class="colophon"> &copy; <?php echo date("Y"); ?> Moorgate Motor Company, All Rights Reserved.</p>
 	</footer>
-</div>
 
 <?php echo js('main').js($js); ?>
 
