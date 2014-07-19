@@ -21,6 +21,7 @@
 	<?php
 		echo css('main.min');
 		echo js('jquery');
+		echo js('gallery');
 
 		if (!empty($is_blog)):
 			echo $CI->fuel_blog->header();
@@ -34,8 +35,8 @@
 			<header class="page-header">
 				<div class="header__logo"></div>
 				<div class="header__contact">
-					<h2><?php // echo fuel_var('address'); ?> 10 king road, Sheffield S11 9XX</h2>
-					<h2><?php // echo fuel_var('phone'); ?>  0114 232 232</h2>
+					<h2><?php echo fuel_var('address'); ?></h2>
+					<h2><?php echo fuel_var('phone'); ?></h2>
 				</div>
 				<?php echo fuel_nav(array('container_tag_id' => 'topmenu', 'item_id_prefix' => 'topmenu_')); ?>
 			</header>		
