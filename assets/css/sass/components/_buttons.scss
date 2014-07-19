@@ -5,43 +5,34 @@
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"] {
-	  border: 1px solid #aaa;
-	  border-top: 1px solid #ccc;
-	  border-left: 1px solid #ccc;
-	  @include default-button-bg;
-	  -moz-border-radius: 3px;
-	  -webkit-border-radius: 3px;
-	  border-radius: 3px;
-	  color: #444;
+	  color: #fff;
+	  background: $burnt-orange;
 	  display: inline-block;
-	  font-size: 11px;
+	  font-size: 18px;
 	  font-weight: bold;
 	  text-decoration: none;
-	  text-shadow: 0 1px rgba(255, 255, 255, .75);
 	  cursor: pointer;
-	  margin-bottom: 20px;
 	  line-height: normal;
-	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+		padding: 12px 10px;
+	  font-family: 'lato', sans-serif; 
+	  -webkit-font-smoothing: antialiased;
+	  border: none;
+	}
 
 	.button:hover,
 	button:hover,
 	input[type="submit"]:hover,
 	input[type="reset"]:hover,
 	input[type="button"]:hover {
-		color: #222;
-	  @include hover-button-bg;
-	  border: 1px solid #888;
-	  border-top: 1px solid #aaa;
-	  border-left: 1px solid #aaa; }
+	  background: lighten($burnt-orange, 10%);
+	}
 
 	.button:active,
 	button:active,
 	input[type="submit"]:active,
 	input[type="reset"]:active,
 	input[type="button"]:active {
-		border: 1px solid #666;
-		@include hover-button-bg;
+	  background: darken($burnt-orange, 10%);
 	}
 
 	.button.full-width,

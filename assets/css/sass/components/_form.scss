@@ -1,0 +1,20 @@
+.form {
+	h2 {
+		text-align: center;
+	}
+
+	input,
+	textarea {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	textarea {
+		height: 150px;
+	}
+
+	input[type="submit"] {
+		margin-top: 20px;
+		margin-left: 10%;
+	}
+}

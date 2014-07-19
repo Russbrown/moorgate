@@ -132,23 +132,6 @@ small {
   text-align: right;
 }
 
-.one-of-four {
-  width: 80%;
-  margin-left: 10%;
-}
-
-@media screen and (min-width: 500px) {
-  .one-of-four {
-    width: 47%;
-    margin-left: 2%;
-  }
-}
-@media screen and (min-width: 800px) {
-  .one-of-four {
-    width: 20%;
-    margin-left: 4%;
-  }
-}
 .has-image-right img {
   float: right;
   width: 60%;
@@ -177,37 +160,28 @@ small {
   float: left;
 }
 
+.sidebar {
+  width: 23%;
+  float: right;
+}
+
 .button,
 button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  border: 1px solid #aaa;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  background: #eee;
-  /* Old browsers */
-  /* FF3.6+ */
-  background: #eeeeee -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.2)));
-  /* Chrome,Safari4+ */
-  background: #eeeeee -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
-  /* Chrome10+,Safari5.1+ */
-  /* Opera11.10+ */
-  /* IE10+ */
-  background: #eeeeee linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
-  /* W3C */
-  border-radius: 3px;
-  color: #444;
+  color: #fff;
+  background: #e16929;
   display: inline-block;
-  font-size: 11px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
-  text-shadow: 0 1px rgba(255, 255, 255, 0.75);
   cursor: pointer;
-  margin-bottom: 20px;
   line-height: normal;
-  padding: 8px 10px;
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 12px 10px;
+  font-family: 'lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  border: none;
 }
 
 .button:hover,
@@ -215,21 +189,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-  color: #222;
-  background: #ddd;
-  /* Old browsers */
-  /* FF3.6+ */
-  background: #dddddd -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.3)));
-  /* Chrome,Safari4+ */
-  background: #dddddd -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  /* Chrome10+,Safari5.1+ */
-  /* Opera11.10+ */
-  /* IE10+ */
-  background: #dddddd linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  /* W3C */
-  border: 1px solid #888;
-  border-top: 1px solid #aaa;
-  border-left: 1px solid #aaa;
+  background: #e78856;
 }
 
 .button:active,
@@ -237,18 +197,7 @@ button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-  border: 1px solid #666;
-  background: #ddd;
-  /* Old browsers */
-  /* FF3.6+ */
-  background: #dddddd -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.3)));
-  /* Chrome,Safari4+ */
-  background: #dddddd -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  /* Chrome10+,Safari5.1+ */
-  /* Opera11.10+ */
-  /* IE10+ */
-  background: #dddddd linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-  /* W3C */
+  background: #bd531a;
 }
 
 .button.full-width,
@@ -349,6 +298,22 @@ input::-moz-focus-inner {
   right: 5%;
 }
 
+.form h2 {
+  text-align: center;
+}
+.form input,
+.form textarea {
+  width: 80%;
+  margin: 0 auto;
+}
+.form textarea {
+  height: 150px;
+}
+.form input[type="submit"] {
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
 .footer {
   background: url("../images/header-bg.jpg");
   width: 100%;
@@ -411,16 +376,15 @@ fieldset {
 input[type="text"],
 input[type="password"],
 input[type="email"],
+input[type="tel"],
 textarea,
 select {
   border: 1px solid #ccc;
-  padding: 6px 4px;
+  padding: 12px 10px;
   outline: none;
-  border-radius: 2px;
-  font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px 'lato', sans-serif;
+  text-transform: uppercase;
   color: #777;
-  margin: 0;
-  width: 210px;
   max-width: 100%;
   display: block;
   margin-bottom: 20px;
@@ -434,6 +398,7 @@ select {
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
+input[type="tel"]:focus,
 textarea:focus {
   border: 1px solid #aaa;
   color: #444;
