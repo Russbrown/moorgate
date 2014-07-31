@@ -7,12 +7,12 @@
 	<section id="main_inner">
 		<div class="main-column">
 			<div class="fifty text-padding has-image-right">
-				<h2><? echo fuel_var('heading_left_column'); ?></h2>
-				<? echo fuel_var('body_left_column'); ?>
+				<h2><?php echo fuel_var('heading_left_column'); ?></h2>
+				<?php echo fuel_var('body_left_column'); ?>
 			</div>	
 			<div class="fifty text-padding has-image-right">
-				<h2><? echo fuel_var('heading_right_column'); ?></h2>
-				<? echo fuel_var('body_right_column'); ?>
+				<h2><?php echo fuel_var('heading_right_column'); ?></h2>
+				<?php echo fuel_var('body_right_column'); ?>
 			</div>
 		</div>
 	</section>
