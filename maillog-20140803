@@ -1,0 +1,211 @@
+Jul 31 15:41:22 moorgate postfix/pickup[29852]: 8339D120C94: uid=0 from=<root>
+Jul 31 15:41:22 moorgate postfix/cleanup[29869]: 8339D120C94: message-id=<20140731154122.8339D120C94@moorgate.localdomain>
+Jul 31 15:41:22 moorgate postfix/qmgr[966]: 8339D120C94: from=<root@moorgate.localdomain>, size=303, nrcpt=1 (queue active)
+Jul 31 15:41:25 moorgate postfix/smtp[29871]: 8339D120C94: to=<russbrown@stoneacre.co.uk>, relay=smtp.stoneacre.co.uk[82.71.236.172]:25, delay=49, delays=46/0.02/2.3/0.4, dsn=5.0.0, status=bounced (host smtp.stoneacre.co.uk[82.71.236.172] said: 550 <russbrown@stoneacre.co.uk>, Recipient unknown (in reply to RCPT TO command))
+Jul 31 15:41:25 moorgate postfix/cleanup[29869]: 3BC51120C97: message-id=<20140731154125.3BC51120C97@moorgate.localdomain>
+Jul 31 15:41:25 moorgate postfix/qmgr[966]: 3BC51120C97: from=<>, size=2282, nrcpt=1 (queue active)
+Jul 31 15:41:25 moorgate postfix/bounce[29872]: 8339D120C94: sender non-delivery notification: 3BC51120C97
+Jul 31 15:41:25 moorgate postfix/qmgr[966]: 8339D120C94: removed
+Jul 31 15:41:25 moorgate postfix/local[29873]: 3BC51120C97: to=<root@moorgate.localdomain>, relay=local, delay=0.05, delays=0.01/0.04/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Jul 31 15:41:25 moorgate postfix/qmgr[966]: 3BC51120C97: removed
+Jul 31 15:44:36 moorgate postfix/pickup[29852]: 92A32120C97: uid=0 from=<root>
+Jul 31 15:44:36 moorgate postfix/cleanup[29876]: 92A32120C97: message-id=<20140731154436.92A32120C97@moorgate.localdomain>
+Jul 31 15:44:36 moorgate postfix/qmgr[966]: 92A32120C97: from=<root@moorgate.localdomain>, size=308, nrcpt=1 (queue active)
+Jul 31 15:44:39 moorgate postfix/smtp[29878]: 92A32120C97: to=<russ.brown@stoneacre.co.uk>, relay=smtp.stoneacre.co.uk[82.71.236.172]:25, delay=9.2, delays=6.6/0.01/2.2/0.4, dsn=2.0.0, status=sent (250 Ok, message saved <Message-ID: 20140731154436.92A32120C97@moorgate.localdomain>)
+Jul 31 15:44:39 moorgate postfix/qmgr[966]: 92A32120C97: removed
+Jul 31 15:49:38 moorgate postfix/pickup[29852]: 2B41E120C97: uid=0 from=<root>
+Jul 31 15:49:38 moorgate postfix/cleanup[29881]: 2B41E120C97: message-id=<20140731154938.2B41E120C97@moorgate.localdomain>
+Jul 31 15:49:38 moorgate postfix/qmgr[966]: 2B41E120C97: from=<root@moorgate.localdomain>, size=308, nrcpt=1 (queue active)
+Jul 31 15:49:38 moorgate postfix/smtp[29883]: connect to gmail-smtp-in.l.google.com[2a00:1450:400c:c03::1a]:25: Network is unreachable
+Jul 31 15:49:45 moorgate postfix/smtp[29883]: 2B41E120C97: to=<emailrussellbrown@gmail.com>, relay=gmail-smtp-in.l.google.com[173.194.66.26]:25, delay=13, delays=5.5/0.01/3.1/4.1, dsn=2.0.0, status=sent (250 2.0.0 OK 1406821785 ej1si34228736wib.87 - gsmtp)
+Jul 31 15:49:45 moorgate postfix/qmgr[966]: 2B41E120C97: removed
+Jul 31 15:50:49 moorgate sendmail[29936]: alias database /etc/aliases rebuilt by root
+Jul 31 15:50:49 moorgate sendmail[29936]: /etc/aliases: 76 aliases, longest 10 bytes, 765 bytes total
+Jul 31 15:51:17 moorgate sendmail[29939]: s6VFpCXm029939: from=root, size=11, class=0, nrcpts=1, msgid=<201407311551.s6VFpCXm029939@moorgate>, relay=root@localhost
+Jul 31 15:51:17 moorgate postfix/smtpd[29940]: connect from localhost[127.0.0.1]
+Jul 31 15:51:17 moorgate postfix/smtpd[29940]: CD482120CB1: client=localhost[127.0.0.1]
+Jul 31 15:51:17 moorgate postfix/cleanup[29881]: CD482120CB1: message-id=<201407311551.s6VFpCXm029939@moorgate>
+Jul 31 15:51:17 moorgate postfix/qmgr[966]: CD482120CB1: from=<root@moorgate.localdomain>, size=510, nrcpt=1 (queue active)
+Jul 31 15:51:17 moorgate sendmail[29939]: s6VFpCXm029939: to=russ.brown@stoneacre.co.uk, ctladdr=root (0/0), delay=00:00:05, xdelay=00:00:00, mailer=relay, pri=30011, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (Ok: queued as CD482120CB1)
+Jul 31 15:51:17 moorgate postfix/smtpd[29940]: disconnect from localhost[127.0.0.1]
+Jul 31 15:51:20 moorgate postfix/smtp[29883]: CD482120CB1: to=<russ.brown@stoneacre.co.uk>, relay=smtp.stoneacre.co.uk[82.71.236.172]:25, delay=2.7, delays=0.04/0/2.3/0.3, dsn=2.0.0, status=sent (250 Ok, message saved <Message-ID: 201407311551.s6VFpCXm029939@moorgate>)
+Jul 31 15:51:20 moorgate postfix/qmgr[966]: CD482120CB1: removed
+Jul 31 15:55:07 moorgate sendmail[29953]: s6VFsvLn029953: from=root, size=15, class=0, nrcpts=1, msgid=<201407311554.s6VFsvLn029953@moorgate>, relay=root@localhost
+Jul 31 15:55:08 moorgate postfix/smtpd[29954]: connect from localhost[127.0.0.1]
+Jul 31 15:55:08 moorgate postfix/smtpd[29954]: 10F3E120CB1: client=localhost[127.0.0.1]
+Jul 31 15:55:08 moorgate postfix/cleanup[29957]: 10F3E120CB1: message-id=<201407311554.s6VFsvLn029953@moorgate>
+Jul 31 15:55:08 moorgate postfix/qmgr[966]: 10F3E120CB1: from=<root@moorgate.localdomain>, size=514, nrcpt=1 (queue active)
+Jul 31 15:55:08 moorgate sendmail[29953]: s6VFsvLn029953: to=russ.brown@stoneacre.co.uk, ctladdr=root (0/0), delay=00:00:11, xdelay=00:00:00, mailer=relay, pri=30015, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (Ok: queued as 10F3E120CB1)
+Jul 31 15:55:08 moorgate postfix/smtpd[29954]: disconnect from localhost[127.0.0.1]
+Jul 31 15:55:10 moorgate postfix/smtp[29958]: 10F3E120CB1: to=<russ.brown@stoneacre.co.uk>, relay=smtp.stoneacre.co.uk[82.71.236.172]:25, delay=2.8, delays=0.06/0.02/2.3/0.39, dsn=2.0.0, status=sent (250 Ok, message saved <Message-ID: 201407311554.s6VFsvLn029953@moorgate>)
+Jul 31 15:55:10 moorgate postfix/qmgr[966]: 10F3E120CB1: removed
+Jul 31 15:57:18 moorgate sendmail[29987]: starting daemon (8.14.4): SMTP+queueing@01:00:00
+Jul 31 15:57:18 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:57:18 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:57:18 moorgate sm-msp-queue[29995]: starting daemon (8.14.4): queueing@01:00:00
+Jul 31 15:57:23 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:57:23 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:57:28 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:57:28 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:57:29 moorgate sendmail[29998]: s6VFvPJL029998: from=root, size=6, class=0, nrcpts=1, msgid=<201407311557.s6VFvPJL029998@moorgate>, relay=root@localhost
+Jul 31 15:57:29 moorgate postfix/smtpd[29999]: connect from localhost[127.0.0.1]
+Jul 31 15:57:29 moorgate postfix/smtpd[29999]: 3CC0D120CB4: client=localhost[127.0.0.1]
+Jul 31 15:57:29 moorgate postfix/cleanup[30002]: 3CC0D120CB4: message-id=<201407311557.s6VFvPJL029998@moorgate>
+Jul 31 15:57:29 moorgate postfix/qmgr[966]: 3CC0D120CB4: from=<root@moorgate.localdomain>, size=505, nrcpt=1 (queue active)
+Jul 31 15:57:29 moorgate sendmail[29998]: s6VFvPJL029998: to=russ.brown@stoneacre.co.uk, ctladdr=root (0/0), delay=00:00:04, xdelay=00:00:00, mailer=relay, pri=30006, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (Ok: queued as 3CC0D120CB4)
+Jul 31 15:57:29 moorgate postfix/smtpd[29999]: disconnect from localhost[127.0.0.1]
+Jul 31 15:57:33 moorgate postfix/smtp[30003]: 3CC0D120CB4: to=<russ.brown@stoneacre.co.uk>, relay=smtp.stoneacre.co.uk[82.71.236.172]:25, delay=4.1, delays=0.05/0.01/2.3/1.8, dsn=2.0.0, status=sent (250 Ok, message saved <Message-ID: 201407311557.s6VFvPJL029998@moorgate>)
+Jul 31 15:57:33 moorgate postfix/qmgr[966]: 3CC0D120CB4: removed
+Jul 31 15:57:33 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:57:33 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:57:38 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:57:38 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:57:43 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:57:43 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:57:48 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:57:48 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:57:53 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:57:53 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:57:58 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:57:58 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:58:03 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:58:03 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:58:08 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: cannot bind: Address already in use
+Jul 31 15:58:08 moorgate sendmail[29987]: daemon MTA: problem creating SMTP socket
+Jul 31 15:58:08 moorgate sendmail[29987]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA: server SMTP socket wedged: exiting
+Jul 31 20:21:14 moorgate sendmail[32707]: s6VKLEwN032707: Authentication-Warning: moorgate: apache set sender to russ@yahoo.com using -f
+Jul 31 20:21:14 moorgate sendmail[32707]: s6VKLEwN032707: from=russ@yahoo.com, size=497, class=0, nrcpts=1, msgid=<53daa53a6c10c@yahoo.com>, relay=apache@localhost
+Jul 31 20:21:14 moorgate postfix/smtpd[32708]: connect from localhost[127.0.0.1]
+Jul 31 20:21:14 moorgate postfix/smtpd[32708]: C08D7120F86: client=localhost[127.0.0.1]
+Jul 31 20:21:14 moorgate postfix/cleanup[32711]: C08D7120F86: message-id=<53daa53a6c10c@yahoo.com>
+Jul 31 20:21:14 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Jul 31 20:21:14 moorgate sendmail[32707]: s6VKLEwN032707: to=poa02rb@yahoo.co.uk, ctladdr=russ@yahoo.com (48/48), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=30497, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (Ok: queued as C08D7120F86)
+Jul 31 20:21:14 moorgate postfix/smtpd[32708]: disconnect from localhost[127.0.0.1]
+Jul 31 20:21:15 moorgate postfix/smtp[32712]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=0.37, delays=0.06/0.03/0.06/0.22, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Jul 31 20:28:08 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Jul 31 20:28:08 moorgate postfix/smtp[32715]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=414, delays=414/0.02/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Jul 31 20:38:08 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Jul 31 20:38:08 moorgate postfix/smtp[32718]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=1014, delays=1014/0.03/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Jul 31 20:58:08 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Jul 31 20:58:08 moorgate postfix/smtp[32732]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=2213, delays=2213/0.03/0.06/0.01, dsn=4.3.2, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 451 4.3.2 Internal error reading data (in reply to MAIL FROM command))
+Jul 31 21:38:08 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Jul 31 21:38:08 moorgate postfix/smtp[602]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=4614, delays=4614/0.04/0.06/0.22, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Jul 31 22:48:08 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Jul 31 22:48:09 moorgate postfix/smtp[1194]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=8814, delays=8814/0.03/0.06/0.23, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Jul 31 23:58:10 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Jul 31 23:58:10 moorgate postfix/smtp[1494]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=13016, delays=13015/0.04/0.06/0.23, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 01:08:10 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 01:08:10 moorgate postfix/smtp[1525]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=17216, delays=17215/0.03/0.06/0.23, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 02:18:10 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 02:18:10 moorgate postfix/smtp[1542]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=21416, delays=21416/0.04/0.06/0.22, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 03:28:10 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 03:28:11 moorgate postfix/smtp[1758]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=25616, delays=25616/0.03/0.06/0.22, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 04:38:11 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 04:38:11 moorgate postfix/smtp[1880]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=29817, delays=29816/0.03/0.06/0.22, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 05:48:11 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 05:48:11 moorgate postfix/smtp[2517]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=34017, delays=34017/0.03/0.06/0.22, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 06:58:11 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 06:58:12 moorgate postfix/smtp[2615]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=38217, delays=38217/0.03/0.06/0.22, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 08:08:11 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 08:08:11 moorgate postfix/smtp[2660]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=42417, delays=42416/0.04/0.06/0.23, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 09:18:11 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 09:18:11 moorgate postfix/smtp[2677]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=46617, delays=46617/0.03/0.06/0.22, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 10:26:20 moorgate sendmail[2704]: s71AQK8K002704: Authentication-Warning: moorgate: apache set sender to russ@yahoo.com using -f
+Aug  1 10:26:20 moorgate sendmail[2704]: s71AQK8K002704: from=russ@yahoo.com, size=501, class=0, nrcpts=1, msgid=<53db6b4c00431@yahoo.com>, relay=apache@localhost
+Aug  1 10:26:20 moorgate postfix/smtpd[2705]: connect from localhost[127.0.0.1]
+Aug  1 10:26:20 moorgate postfix/smtpd[2705]: 39DEC120F96: client=localhost[127.0.0.1]
+Aug  1 10:26:20 moorgate postfix/cleanup[2708]: 39DEC120F96: message-id=<53db6b4c00431@yahoo.com>
+Aug  1 10:26:20 moorgate postfix/qmgr[966]: 39DEC120F96: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 10:26:20 moorgate sendmail[2704]: s71AQK8K002704: to=poa02rb@yahoo.co.uk, ctladdr=russ@yahoo.com (48/48), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=30501, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (Ok: queued as 39DEC120F96)
+Aug  1 10:26:20 moorgate postfix/smtpd[2705]: disconnect from localhost[127.0.0.1]
+Aug  1 10:26:20 moorgate postfix/smtp[2709]: 39DEC120F96: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=0.35, delays=0.05/0.02/0.06/0.23, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 10:26:40 moorgate sendmail[2714]: s71AQeek002714: Authentication-Warning: moorgate: apache set sender to russ@yahoo.com using -f
+Aug  1 10:26:40 moorgate sendmail[2714]: s71AQeek002714: from=russ@yahoo.com, size=501, class=0, nrcpts=1, msgid=<53db6b5fea38d@yahoo.com>, relay=apache@localhost
+Aug  1 10:26:40 moorgate postfix/smtpd[2705]: connect from localhost[127.0.0.1]
+Aug  1 10:26:40 moorgate postfix/smtpd[2705]: 25577120F9B: client=localhost[127.0.0.1]
+Aug  1 10:26:40 moorgate postfix/cleanup[2708]: 25577120F9B: message-id=<53db6b5fea38d@yahoo.com>
+Aug  1 10:26:40 moorgate postfix/qmgr[966]: 25577120F9B: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 10:26:40 moorgate sendmail[2714]: s71AQeek002714: to=poa02rb@yahoo.co.uk, ctladdr=russ@yahoo.com (48/48), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=30501, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (Ok: queued as 25577120F9B)
+Aug  1 10:26:40 moorgate postfix/smtpd[2705]: disconnect from localhost[127.0.0.1]
+Aug  1 10:26:40 moorgate postfix/smtp[2709]: 25577120F9B: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=0.13, delays=0.05/0/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 10:28:11 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 10:28:11 moorgate postfix/smtp[2709]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=50817, delays=50817/0.01/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 10:30:58 moorgate sendmail[2719]: s71AUkC0002719: from=root, size=19, class=0, nrcpts=1, msgid=<201408011030.s71AUkC0002719@moorgate>, relay=root@localhost
+Aug  1 10:30:58 moorgate postfix/smtpd[2720]: connect from localhost[127.0.0.1]
+Aug  1 10:30:58 moorgate postfix/smtpd[2720]: EEF25120F9F: client=localhost[127.0.0.1]
+Aug  1 10:30:59 moorgate postfix/cleanup[2723]: EEF25120F9F: message-id=<201408011030.s71AUkC0002719@moorgate>
+Aug  1 10:30:59 moorgate postfix/qmgr[966]: EEF25120F9F: from=<root@moorgate.localdomain>, size=502, nrcpt=1 (queue active)
+Aug  1 10:30:59 moorgate sendmail[2719]: s71AUkC0002719: to=poa02rb@yahoo.co.uk, ctladdr=root (0/0), delay=00:00:13, xdelay=00:00:01, mailer=relay, pri=30019, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (Ok: queued as EEF25120F9F)
+Aug  1 10:30:59 moorgate postfix/smtpd[2720]: disconnect from localhost[127.0.0.1]
+Aug  1 10:30:59 moorgate postfix/smtp[2724]: EEF25120F9F: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=0.16, delays=0.06/0.02/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 10:33:11 moorgate postfix/qmgr[966]: 25577120F9B: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 10:33:11 moorgate postfix/qmgr[966]: 39DEC120F96: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 10:33:11 moorgate postfix/smtp[2727]: 25577120F9B: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=391, delays=391/0.03/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 10:33:11 moorgate postfix/smtp[2728]: 39DEC120F96: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=411, delays=411/0.02/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 10:38:11 moorgate postfix/qmgr[966]: EEF25120F9F: from=<root@moorgate.localdomain>, size=502, nrcpt=1 (queue active)
+Aug  1 10:38:11 moorgate postfix/smtp[2732]: EEF25120F9F: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=433, delays=433/0.05/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 10:43:11 moorgate postfix/qmgr[966]: 25577120F9B: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 10:43:11 moorgate postfix/qmgr[966]: 39DEC120F96: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 10:43:11 moorgate postfix/smtp[2737]: 25577120F9B: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=992, delays=992/0.04/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 10:43:11 moorgate postfix/smtp[2738]: 39DEC120F96: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=1012, delays=1011/0.03/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 10:48:11 moorgate postfix/qmgr[966]: EEF25120F9F: from=<root@moorgate.localdomain>, size=502, nrcpt=1 (queue active)
+Aug  1 10:48:11 moorgate postfix/smtp[2742]: EEF25120F9F: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=1032, delays=1032/0.04/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 11:03:11 moorgate postfix/qmgr[966]: 25577120F9B: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 11:03:11 moorgate postfix/qmgr[966]: 39DEC120F96: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 11:03:11 moorgate postfix/smtp[2774]: 25577120F9B: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=2191, delays=2191/0.05/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 11:03:11 moorgate postfix/smtp[2775]: 39DEC120F96: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=2211, delays=2211/0.03/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 11:08:11 moorgate postfix/qmgr[966]: EEF25120F9F: from=<root@moorgate.localdomain>, size=502, nrcpt=1 (queue active)
+Aug  1 11:08:11 moorgate postfix/smtp[2779]: EEF25120F9F: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=2233, delays=2232/0.04/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 11:37:50 moorgate sendmail[3226]: s71BboRL003226: Authentication-Warning: moorgate: apache set sender to russ@yahoo.com using -f
+Aug  1 11:37:50 moorgate sendmail[3226]: s71BboRL003226: from=russ@yahoo.com, size=515, class=0, nrcpts=1, msgid=<53db7c0e18b2d@yahoo.com>, relay=apache@localhost
+Aug  1 11:37:50 moorgate postfix/smtpd[3227]: connect from localhost[127.0.0.1]
+Aug  1 11:37:50 moorgate postfix/smtpd[3227]: 5C5E6120FA3: client=localhost[127.0.0.1]
+Aug  1 11:37:50 moorgate postfix/cleanup[3230]: 5C5E6120FA3: message-id=<53db7c0e18b2d@yahoo.com>
+Aug  1 11:37:50 moorgate postfix/qmgr[966]: 5C5E6120FA3: from=<russ@yahoo.com>, size=922, nrcpt=1 (queue active)
+Aug  1 11:37:50 moorgate sendmail[3226]: s71BboRL003226: to=poa02rb@yahoo.co.uk, ctladdr=russ@yahoo.com (48/48), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=30515, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (Ok: queued as 5C5E6120FA3)
+Aug  1 11:37:50 moorgate postfix/smtpd[3227]: disconnect from localhost[127.0.0.1]
+Aug  1 11:37:50 moorgate postfix/smtp[3231]: 5C5E6120FA3: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=0.4, delays=0.08/0.04/0.06/0.23, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 11:38:11 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 11:38:11 moorgate postfix/smtp[3231]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=55017, delays=55017/0/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 11:43:11 moorgate postfix/qmgr[966]: 25577120F9B: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 11:43:12 moorgate postfix/qmgr[966]: 39DEC120F96: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 11:43:12 moorgate postfix/qmgr[966]: 5C5E6120FA3: from=<russ@yahoo.com>, size=922, nrcpt=1 (queue active)
+Aug  1 11:43:12 moorgate postfix/smtp[3234]: 25577120F9B: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=4592, delays=4592/0.04/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 11:43:12 moorgate postfix/smtp[3235]: 39DEC120F96: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=4612, delays=4612/0.03/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 11:43:12 moorgate postfix/smtp[3236]: 5C5E6120FA3: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=322, delays=322/0.04/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 11:48:11 moorgate postfix/qmgr[966]: EEF25120F9F: from=<root@moorgate.localdomain>, size=502, nrcpt=1 (queue active)
+Aug  1 11:48:11 moorgate postfix/error[3240]: EEF25120F9F: to=<poa02rb@yahoo.co.uk>, relay=none, delay=4632, delays=4632/0.05/0/0.02, dsn=4.4.2, status=deferred (delivery temporarily suspended: lost connection with mx-eu.mail.am0.yahoodns.net[188.125.69.79] while sending RCPT TO)
+Aug  1 11:53:11 moorgate postfix/qmgr[966]: 5C5E6120FA3: from=<russ@yahoo.com>, size=922, nrcpt=1 (queue active)
+Aug  1 11:53:11 moorgate postfix/smtp[3243]: 5C5E6120FA3: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=921, delays=921/0.03/0.06/0.02, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 12:13:11 moorgate postfix/qmgr[966]: 5C5E6120FA3: from=<russ@yahoo.com>, size=922, nrcpt=1 (queue active)
+Aug  1 12:13:11 moorgate postfix/smtp[3258]: 5C5E6120FA3: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=2121, delays=2121/0.05/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 12:48:11 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 12:48:11 moorgate postfix/smtp[3262]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=59217, delays=59217/0.02/0.06/0.22, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 12:53:11 moorgate postfix/qmgr[966]: 25577120F9B: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 12:53:11 moorgate postfix/qmgr[966]: 39DEC120F96: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 12:53:11 moorgate postfix/qmgr[966]: 5C5E6120FA3: from=<russ@yahoo.com>, size=922, nrcpt=1 (queue active)
+Aug  1 12:53:12 moorgate postfix/smtp[3269]: 25577120F9B: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=8792, delays=8792/0.04/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 12:53:12 moorgate postfix/smtp[3270]: 39DEC120F96: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=8812, delays=8812/0.03/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 12:53:12 moorgate postfix/smtp[3271]: 5C5E6120FA3: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=4522, delays=4522/0.04/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 12:58:11 moorgate postfix/qmgr[966]: EEF25120F9F: from=<root@moorgate.localdomain>, size=502, nrcpt=1 (queue active)
+Aug  1 12:58:11 moorgate postfix/error[3282]: EEF25120F9F: to=<poa02rb@yahoo.co.uk>, relay=none, delay=8832, delays=8832/0.04/0/0.02, dsn=4.4.2, status=deferred (delivery temporarily suspended: lost connection with mx-eu.mail.am0.yahoodns.net[188.125.69.79] while sending RCPT TO)
+Aug  1 13:58:13 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 13:58:13 moorgate postfix/smtp[3300]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=63419, delays=63419/0.04/0.06/0.22, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 14:03:13 moorgate postfix/qmgr[966]: 25577120F9B: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 14:03:13 moorgate postfix/qmgr[966]: 39DEC120F96: from=<russ@yahoo.com>, size=908, nrcpt=1 (queue active)
+Aug  1 14:03:13 moorgate postfix/qmgr[966]: 5C5E6120FA3: from=<russ@yahoo.com>, size=922, nrcpt=1 (queue active)
+Aug  1 14:03:13 moorgate postfix/smtp[3314]: 25577120F9B: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=12993, delays=12993/0.04/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 14:03:13 moorgate postfix/smtp[3315]: 39DEC120F96: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=13013, delays=13013/0.03/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 14:03:13 moorgate postfix/smtp[3316]: 5C5E6120FA3: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=8723, delays=8723/0.04/0.06/0.02, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 14:08:13 moorgate postfix/qmgr[966]: EEF25120F9F: from=<root@moorgate.localdomain>, size=502, nrcpt=1 (queue active)
+Aug  1 14:08:13 moorgate postfix/smtp[3320]: EEF25120F9F: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=13035, delays=13035/0.03/0.06/0.01, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 15:08:13 moorgate postfix/qmgr[966]: C08D7120F86: from=<russ@yahoo.com>, size=906, nrcpt=1 (queue active)
+Aug  1 15:08:13 moorgate postfix/smtp[3336]: C08D7120F86: to=<poa02rb@yahoo.co.uk>, relay=mx-eu.mail.am0.yahoodns.net[188.125.69.79]:25, delay=67619, delays=67618/0.04/0.06/0.23, dsn=4.7.1, status=deferred (host mx-eu.mail.am0.yahoodns.net[188.125.69.79] said: 421 4.7.1 [TS03] All messages from 178.62.42.231 will be permanently deferred; Retrying will NOT succeed. See http://postmaster.yahoo.com/errors/421-ts03.html (in reply to MAIL FROM command))
+Aug  1 15:12:39 moorgate sendmail[895]: starting daemon (8.14.4): SMTP+queueing@01:00:00
+Aug  1 15:12:39 moorgate sm-msp-queue[903]: starting daemon (8.14.4): queueing@01:00:00
+Aug  1 15:47:02 moorgate sendmail[1159]: s71Fl225001159: Authentication-Warning: moorgate: apache set sender to Test@test using -f
+Aug  1 15:47:02 moorgate sendmail[1159]: s71Fl225001159: from=Test@test, size=478, class=0, nrcpts=1, msgid=<53dbb6763468d@test>, relay=apache@localhost
+Aug  1 15:47:02 moorgate sendmail[1160]: s71Fl2kv001160: from=<Test@test>, size=683, class=0, nrcpts=1, msgid=<53dbb6763468d@test>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Aug  1 15:47:02 moorgate sendmail[1159]: s71Fl225001159: to=emailrussellbrown@gmail.com, ctladdr=Test@test (48/48), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=30478, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (s71Fl2kv001160 Message accepted for delivery)
+Aug  1 15:47:02 moorgate sendmail[1162]: STARTTLS=client, relay=gmail-smtp-in.l.google.com., version=TLSv1/SSLv3, verify=FAIL, cipher=ECDHE-RSA-AES128-GCM-SHA256, bits=128/128
+Aug  1 15:47:03 moorgate sendmail[1162]: s71Fl2kv001160: to=<emailrussellbrown@gmail.com>, delay=00:00:01, xdelay=00:00:01, mailer=esmtp, pri=120683, relay=gmail-smtp-in.l.google.com. [173.194.66.27], dsn=2.0.0, stat=Sent (OK 1406908024 x5si6636931wia.24 - gsmtp)
