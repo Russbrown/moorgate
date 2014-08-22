@@ -303,7 +303,8 @@ input::-moz-focus-inner {
   text-align: center;
 }
 .form input,
-.form textarea {
+.form textarea,
+.form label {
   width: 80%;
   margin: 0 auto;
 }
