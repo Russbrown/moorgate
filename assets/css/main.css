@@ -364,8 +364,7 @@ input::-moz-focus-inner {
   margin: 0 auto;
 }
 .page-header .header__contact {
-  padding-top: .8em;
-  padding-bottom: .2em;
+  padding-top: .7em;
 }
 .page-header .header__contact h2 {
   font-size: 1.8em;
