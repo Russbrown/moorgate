@@ -228,6 +228,7 @@ input::-moz-focus-inner {
   padding: 1em 0;
   position: relative;
   margin-bottom: 0;
+  text-shadow: 1px 1px 1px #333;
 }
 #topmenu li:last-child {
   border-right: 0;
@@ -328,6 +329,12 @@ input::-moz-focus-inner {
 .footer .h4, .footer h4 {
   color: #fff;
 }
+.footer .right-align {
+  color: #29515f;
+}
+.footer .right-align h2 {
+  color: #29515f;
+}
 
 .colophon {
   float: right;
@@ -351,19 +358,31 @@ input::-moz-focus-inner {
   border-bottom: 6px solid #e16929;
 }
 .page-header .header__logo {
-  background: url("../images/logo_3.png");
+  background: url("../images/logo_4.png");
   width: 300px;
   height: 97px;
   margin: 0 auto;
 }
 .page-header .header__contact {
-  padding-top: 1em;
+  padding-top: .8em;
+  padding-bottom: .2em;
 }
 .page-header .header__contact h2 {
   font-size: 1.8em;
   line-height: 0em;
   text-align: center;
-  color: #bcbcbc;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+}
+.page-header .header__contact h2:before {
+  font-family: fontAwesome;
+  content: '\f098';
+  color: #e16929;
+  font-size: 1.6em;
+  padding-right: 10px;
+  position: relative;
+  top: 5px;
+  text-shadow: 1px 1px 1px #333;
 }
 
 form {
