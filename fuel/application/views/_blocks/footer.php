@@ -5,9 +5,7 @@
 		<div class="third">
 			<h2 class="h4">Opening Times:</h2>
 			<div class="footer-info">
-				<span class="label">Mon-fri</span><span class="data"><?php echo fuel_var('opening-hours-mon-fri'); ?></span>
-				<span class="label">Saturday</span><span class="data"><?php echo fuel_var('opening-hours-sat'); ?></span>
-				<span class="label">Sunday</span><span class="data"><?php echo fuel_var('opening-hours-sun'); ?></span>
+				<?php echo fuel_var('opening-hours'); ?>
 			</div>
 		</div>
 
