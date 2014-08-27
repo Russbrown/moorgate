@@ -157,10 +157,15 @@ small {
   }
 }
 .third {
-  width: 33%;
+  width: 100%;
   float: left;
 }
 
+@media screen and (min-width: 400px) {
+  .third {
+    width: 33%;
+  }
+}
 .main-column {
   width: 100%;
   float: left;
@@ -340,9 +345,9 @@ input::-moz-focus-inner {
 }
 
 .footer {
-  background: url("../images/header-bg_2.jpg");
+  background: #000;
   width: 100%;
-  height: 185px;
+  height: auto;
   border-top: 6px solid #e16929;
   color: #fff;
   float: left;
@@ -351,13 +356,31 @@ input::-moz-focus-inner {
 .footer .h4, .footer h4 {
   color: #fff;
 }
-.footer .right-align {
-  color: #29515f;
-}
-.footer .right-align h2 {
-  color: #29515f;
+
+.right-align,
+.centre-align {
+  text-align: left;
+  float: left;
 }
 
+@media screen and (min-width: 400px) {
+  .footer {
+    background: url("../images/header-bg_2.jpg");
+    height: 185px;
+  }
+
+  .right-align {
+    color: #29515f;
+    float: right;
+  }
+  .right-align h2 {
+    color: #29515f;
+  }
+
+  .centre-align {
+    text-align: center;
+  }
+}
 .colophon {
   float: right;
   padding-top: 3.5em;

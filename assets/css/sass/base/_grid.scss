@@ -28,8 +28,14 @@
 }
 
 .third {
-	width: 33%;
+	width: 100%;
 	float: left;
+}
+
+@media screen and (min-width: $first-break) {
+	.third {
+		width: 33%;
+	}
 }
 
 .main-column {
