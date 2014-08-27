@@ -234,8 +234,14 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
+.menu-container {
+  width: 100%;
+  overflow: auto;
+}
+
 #topmenu {
   width: 570px;
+  overflow: auto;
   margin: 0 auto;
 }
 #topmenu li {

@@ -40,5 +40,7 @@
 				<div class="header__contact">
 					<h2><?php echo fuel_var('phone'); ?></h2>
 				</div>
-				<?php echo fuel_nav(array('container_tag_id' => 'topmenu', 'item_id_prefix' => 'topmenu_')); ?>
+				<div class="menu-container">
+					<?php echo fuel_nav(array('container_tag_id' => 'topmenu', 'item_id_prefix' => 'topmenu_')); ?>
+				</div>
 			</header>		

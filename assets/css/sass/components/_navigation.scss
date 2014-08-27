@@ -1,7 +1,13 @@
 // Navigation
 
+.menu-container {
+  width: 100%;
+  overflow: auto;
+}
+
 #topmenu {
   width: 570px;
+  overflow: auto;
   margin: 0 auto;
 
   li {
@@ -36,5 +42,5 @@
     display: block;
     margin: 1em 0 0;
   } 
-}// Navigation
+}
 
