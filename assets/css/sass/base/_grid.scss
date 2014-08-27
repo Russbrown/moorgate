@@ -17,8 +17,14 @@
 }
 
 .fifty {
-	width: 50%;
+	width: 100%;
 	float: left;
+}
+
+@media screen and (min-width: $first-break) {
+	.fifty {
+		width: 50%;
+	}
 }
 
 .third {
@@ -27,11 +33,23 @@
 }
 
 .main-column {
-	width: 77%;
+	width: 100%;
 	float: left;
 }
 
+@media screen and (min-width: $first-break) {
+	.main-column {
+		width: 77%;
+	}
+}
+
 .sidebar {
-	width: 23%;
+	width: 100%;
 	float: right;
+}
+
+@media screen and (min-width: $first-break) {
+	.sidebar {
+		width: 23%;
+	}
 }

@@ -147,25 +147,40 @@ small {
 }
 
 .fifty {
-  width: 50%;
+  width: 100%;
   float: left;
 }
 
+@media screen and (min-width: 400px) {
+  .fifty {
+    width: 50%;
+  }
+}
 .third {
   width: 33%;
   float: left;
 }
 
 .main-column {
-  width: 77%;
+  width: 100%;
   float: left;
 }
 
+@media screen and (min-width: 400px) {
+  .main-column {
+    width: 77%;
+  }
+}
 .sidebar {
-  width: 23%;
+  width: 100%;
   float: right;
 }
 
+@media screen and (min-width: 400px) {
+  .sidebar {
+    width: 23%;
+  }
+}
 .button,
 button,
 input[type="submit"],
@@ -254,9 +269,10 @@ input::-moz-focus-inner {
 .interaction-gallery {
   float: left;
   width: 100%;
-  height: 353px;
+  height: 180px;
   position: relative;
   overflow: hidden;
+  display: none;
 }
 .interaction-gallery img {
   width: 100%;
@@ -272,9 +288,9 @@ input::-moz-focus-inner {
   transition: opacity, 1s;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 400px) {
   .interaction-gallery {
-    width: 100%;
+    display: block;
   }
 }
 .gallery__nav {
