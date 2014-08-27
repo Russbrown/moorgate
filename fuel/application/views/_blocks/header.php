@@ -28,6 +28,9 @@
 		endif;
 	?>
 
+	<!-- lets get responsive and lets get rid of status and address bar for iOS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui"/>
+
 </head>
 <body>
 	<div class="page">
