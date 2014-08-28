@@ -151,7 +151,7 @@ small {
   float: left;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
   .fifty {
     width: 50%;
   }
@@ -161,7 +161,7 @@ small {
   float: left;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
   .third {
     width: 33%;
   }
@@ -171,7 +171,7 @@ small {
   float: left;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
   .main-column {
     width: 77%;
   }
@@ -181,7 +181,7 @@ small {
   float: right;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
   .sidebar {
     width: 23%;
   }
@@ -299,9 +299,10 @@ input::-moz-focus-inner {
   transition: opacity, 1s;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
   .interaction-gallery {
     display: block;
+    height: 300px;
   }
 }
 .gallery__nav {
@@ -363,7 +364,7 @@ input::-moz-focus-inner {
   float: left;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
   .footer {
     background: url("../images/header-bg_2.jpg");
     height: 185px;
