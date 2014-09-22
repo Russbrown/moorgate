@@ -1,0 +1,21 @@
+CREATE TABLE `vehicle` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `make` varchar(145) DEFAULT NULL,
+  `model` varchar(145) DEFAULT NULL,
+  `registration` varchar(445) DEFAULT NULL,
+  `mileage` varchar(45) DEFAULT NULL,
+  `fuel_type` varchar(245) DEFAULT NULL,
+  `price` varchar(145) DEFAULT NULL,
+  `spec` varchar(845) DEFAULT NULL,
+  `vehicle_1_img` varchar(245) DEFAULT NULL,
+  `vehicle_2_img` varchar(245) DEFAULT NULL,
+  `vehicle_3_img` varchar(245) DEFAULT NULL,
+  `vehicle_4_img` varchar(245) DEFAULT NULL,
+  `vehicle_5_img` varchar(245) DEFAULT NULL,
+  `vehicle_6_img` varchar(245) DEFAULT NULL,
+  `vehicle_7_img` varchar(245) DEFAULT NULL,
+  `vehicle_8_img` varchar(245) DEFAULT NULL,
+  `vehicle_9_img` varchar(245) DEFAULT NULL,
+  `vehicle_10_img` varchar(245) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1
