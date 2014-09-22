@@ -1,0 +1,55 @@
+.vehicles {
+	width: 70%;
+	float: left;
+	padding: 1.5em 2em;
+
+	.body {
+		width: 100%;
+	}
+}
+
+.vehicle {
+	clear: both;
+}
+
+.vehicle-img {
+	width: 40%;
+	float: left;
+}
+
+.vehicle-details {
+	width: 60%;
+	float: right;
+	padding-left: 1em;
+	position: relative;
+
+	.item {
+		padding-bottom: 1em;
+	}
+
+	.label {
+		font-weight: bold;
+		width: 100px;
+		display: block;
+	}
+
+	.price {
+		position: absolute;
+		top: 63px;
+		right:0;
+		font-size: 1.5em;
+		background: $burnt-orange;
+		padding: 1em;
+		color: #fff;
+	}
+
+	.contact {
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 1.5em;
+		background: #fff;
+		padding: 1em;
+	}
+}
+

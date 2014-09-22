@@ -22,6 +22,7 @@ $config['modules']['projects'] = array(
 *********************** /EXAMPLE ***********************************/
 
 $config['modules']['gallery'] = array();
+$config['modules']['vehicle'] = array();
 
 /*********************** OVERWRITES ************************************/
 

@@ -203,6 +203,7 @@ input[type="button"] {
   font-family: 'lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   border: none;
+  -webkit-appearance: none;
 }
 
 .button:hover,
@@ -343,6 +344,56 @@ input::-moz-focus-inner {
 .form input[type="submit"] {
   margin-top: 20px;
   margin-left: 10%;
+}
+
+.vehicles {
+  width: 70%;
+  float: left;
+  padding: 1.5em 2em;
+}
+.vehicles .body {
+  width: 100%;
+}
+
+.vehicle {
+  clear: both;
+}
+
+.vehicle-img {
+  width: 40%;
+  float: left;
+}
+
+.vehicle-details {
+  width: 60%;
+  float: right;
+  padding-left: 1em;
+  position: relative;
+}
+.vehicle-details .item {
+  padding-bottom: 1em;
+}
+.vehicle-details .label {
+  font-weight: bold;
+  width: 100px;
+  display: block;
+}
+.vehicle-details .price {
+  position: absolute;
+  top: 63px;
+  right: 0;
+  font-size: 1.5em;
+  background: #e16929;
+  padding: 1em;
+  color: #fff;
+}
+.vehicle-details .contact {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5em;
+  background: #fff;
+  padding: 1em;
 }
 
 .footer {

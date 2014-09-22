@@ -15,6 +15,8 @@
 	<meta name="keywords" content="<?php echo fuel_var('meta_keywords')?>">
 	<meta name="description" content="<?php echo fuel_var('meta_description')?>">
 
+	<meta name="format-detection" content="telephone=no">
+
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
