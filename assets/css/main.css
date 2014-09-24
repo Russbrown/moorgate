@@ -357,6 +357,7 @@ input::-moz-focus-inner {
 
 .vehicle {
   clear: both;
+  position: relative;
 }
 
 .vehicle-img {
@@ -394,6 +395,20 @@ input::-moz-focus-inner {
   font-size: 1.5em;
   background: #fff;
   padding: 1em;
+}
+
+.sold:after {
+  content: "sold";
+  text-transform: uppercase;
+  padding: .5em 1em;
+  border: 3px solid red;
+  font-size: 3em;
+  background: #e16929;
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  -webkit-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
 }
 
 .footer {

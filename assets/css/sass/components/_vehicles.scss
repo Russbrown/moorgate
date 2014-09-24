@@ -10,6 +10,7 @@
 
 .vehicle {
 	clear: both;
+	position: relative;
 }
 
 .vehicle-img {
@@ -51,5 +52,18 @@
 		background: #fff;
 		padding: 1em;
 	}
+}
+
+.sold:after {
+	content: "sold";
+	text-transform: uppercase;
+	padding: .5em 1em;
+	border: 3px solid red;
+	font-size: 3em;
+	background: $burnt-orange;
+	position: absolute;
+	bottom: 40px;
+	right: 0;
+	transform: rotateZ(-30deg);
 }
 
