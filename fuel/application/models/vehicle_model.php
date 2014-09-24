@@ -12,8 +12,17 @@ class Vehicle_model extends Base_module_model {
     function getall(){
 			$this->db->select('id, make, model, registration, mileage, fuel_type, price, spec, vehicle_1_img');
 			$this->db->from('vehicle');
+            $this->db->where('sold', 'no');          
 			$result = $this->db->get();
 			return $result->result();	
+    }
+
+    function getSold(){
+            $this->db->select('id, make, model, registration, mileage, fuel_type, price, spec, vehicle_1_img');
+            $this->db->from('vehicle');
+            $this->db->where('sold', 'yes');          
+            $result = $this->db->get();
+            return $result->result();   
     }
 
     // function getOne(id) {
