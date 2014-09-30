@@ -1,5 +1,5 @@
 
-<div class="vehicle">		
+<div class="vehicle vehicle-view">		
 		<div class="header"><h2><?= $vehicle[0]->make . ' ' . $vehicle[0]->model ?></h2></div>
 		<div class="body">
 			<img src="/assets/images/<?= $vehicle[0]->vehicle_1_img ?>" class="vehicle-img" />

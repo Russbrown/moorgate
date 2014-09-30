@@ -411,6 +411,11 @@ input::-moz-focus-inner {
   transform: rotateZ(-30deg);
 }
 
+.vehicle-view {
+  margin: 2em 4em;
+  float: left;
+}
+
 .footer {
   background: #000;
   width: 100%;
