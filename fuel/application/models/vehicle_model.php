@@ -25,11 +25,11 @@ class Vehicle_model extends Base_module_model {
             return $result->result();   
     }
 
-    // function getOne(id) {
-    //         $this->db->select('id, registration, mileage, fuel_type, price, spec, 1_img, 2_img, 3_img, 4_img, 5_img, 6_img, 7_img, 8_img, 9_img, 10_img');
-    //         $this->db->from('vehicle');
-    //         $this->db->where('id', id);
-    //         $result = $this->db->get();
-    //         return $result->result();           
-    // }
+    function getOne($id) {
+            $this->db->select('id, make, model, registration, mileage, fuel_type, price, spec, vehicle_1_img, vehicle_2_img, vehicle_3_img, vehicle_4_img, vehicle_5_img, vehicle_6_img, vehicle_7_img, vehicle_8_img, vehicle_9_img, vehicle_10_img');
+            $this->db->from('vehicle');
+            $this->db->where('id', $id);
+            $result = $this->db->get();
+            return $result->result();           
+    }
 }
