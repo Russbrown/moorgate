@@ -1,5 +1,5 @@
 .vehicles {
-	width: 70%;
+	width: 100%;
 	float: left;
 	padding: 1.5em 2em;
 
@@ -14,7 +14,7 @@
 }
 
 .vehicle-img {
-	width: 40%;
+	width: 100%;
 	float: left;
 }
 
@@ -66,6 +66,24 @@
 	right: 0;
 	transform: rotateZ(-30deg);
 }
+
+@media screen and (min-width: 800px) {
+	.vehicles {
+		width: 70%;
+
+		.vehicle-img {
+			width: 40%;
+		}
+
+		.vehicle-details {
+			width: 60%;
+		}
+	}
+
+}
+
+
+// single vehicle view
 
 .vehicle-view {
 	margin: 1.5em 2%;

@@ -181,7 +181,7 @@ small {
   float: right;
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 700px) {
   .sidebar {
     width: 23%;
   }
@@ -352,7 +352,7 @@ input::-moz-focus-inner {
 }
 
 .vehicles {
-  width: 70%;
+  width: 100%;
   float: left;
   padding: 1.5em 2em;
 }
@@ -366,7 +366,7 @@ input::-moz-focus-inner {
 }
 
 .vehicle-img {
-  width: 40%;
+  width: 100%;
   float: left;
 }
 
@@ -416,6 +416,17 @@ input::-moz-focus-inner {
   transform: rotateZ(-30deg);
 }
 
+@media screen and (min-width: 800px) {
+  .vehicles {
+    width: 70%;
+  }
+  .vehicles .vehicle-img {
+    width: 40%;
+  }
+  .vehicles .vehicle-details {
+    width: 60%;
+  }
+}
 .vehicle-view {
   margin: 1.5em 2%;
   width: 96%;
