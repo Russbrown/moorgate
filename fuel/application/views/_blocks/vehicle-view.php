@@ -9,7 +9,7 @@
 
 					<img src="/assets/images/<?= $vehicle[0]->vehicle_1_img ?>" class="vehicle-img active" />
 
-					<?php if (isset($vehicle[0]->vehicle_2_img)) { ?>
+					<?php if (isset($vehicle[0]->vehicle_2_img) && $vehicle[0]->vehicle_3_img != '') { ?>
 						<img src="/assets/images/<?= $vehicle[0]->vehicle_2_img ?>" class="vehicle-img" />
 					<?php	} ?>
 
