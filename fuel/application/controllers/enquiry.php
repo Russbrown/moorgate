@@ -18,7 +18,7 @@ class Enquiry extends CI_Controller {
 		// var_dump($_POST);
 		$data = $_POST;
 		$this->email->from($data['email'], $data['name']);
-		$this->email->to('moorgatemotorcompany@gmail.com');
+		$this->email->to('moorgatemotorcompany@gmail.com', 'emailrussellbrown@gmail.com');
 		$this->email->subject("Contact Form from MoorgateMotorCompany.co.uk");
 		$msg = "The following information was submitted:\n";
 		foreach($data as $key => $val)
