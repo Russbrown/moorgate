@@ -2,7 +2,10 @@
 <div class="vehicle vehicle-view">		
 		<div class="header"><h2><?= $vehicle[0]->make . ' ' . $vehicle[0]->model ?></h2></div>
 		<div class="body">
-			<div class="vehicle-images">
+			<div class="vehicle-images gallery interaction-gallery">
+
+				<div class="gallery__nav nav__left"><</div>
+				<div class="gallery__nav nav__right">></div>
 
 				<img src="/assets/images/<?= $vehicle[0]->vehicle_1_img ?>" class="vehicle-img active" />
 

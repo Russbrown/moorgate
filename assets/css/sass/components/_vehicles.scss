@@ -19,7 +19,7 @@
 }
 
 .vehicle-details {
-	width: 60%;
+	width: 100%;
 	float: right;
 	padding-left: 1em;
 	position: relative;
@@ -69,11 +69,24 @@
 
 .vehicle-view {
 	margin: 1.5em 2%;
-	width: 73%;
+	width: 96%;
 	float: left;
 
+	.interaction-gallery {
+		display: block; // override dropping homepage gallery
+	}
+
+	.nav__left,
+	.nav__right {
+		top: 70%;
+	}
+
+	.nav__right {
+		right: 0;
+	}
+
 	.vehicle-images {
-		width: 40%;
+		width: 100%;
 		float: left;
 		overflow: hidden;
 
@@ -87,6 +100,19 @@
 		}
 	}
 
-
 }
 
+@media screen and (min-width: 800px) {
+	.vehicle-view {
+		width: 73%;
+
+		.vehicle-images {
+			width: 40%;
+		}
+
+		.vehicle-details {
+			width: 60%;
+		}
+	}
+
+}

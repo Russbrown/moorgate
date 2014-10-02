@@ -12,15 +12,15 @@ $(function(){
     }
   });
 
-  // $('.nav__left').bind('click', function(){
-  //   var next = $('.interaction-gallery .active').prev();
-  //   $('.interaction-gallery .active').removeClass('active');
+  $('.nav__left').bind('click', function(){
+    var next = $('.interaction-gallery .active').prev();
+    $('.interaction-gallery .active').removeClass('active');
 
-  //   if (next.is('img') ) {
-  //     next.addClass('active');
-  //   } else {
-  //     var last = $('.interaction-gallery').find('img:last');
-  //     last.addClass('active');
-  //   }
-  // });
+    if (next.is('img') ) {
+      next.addClass('active');
+    } else {
+      var last = $('.interaction-gallery').find('img:last');
+      last.addClass('active');
+    }
+  });
 });
