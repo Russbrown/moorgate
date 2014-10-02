@@ -68,7 +68,25 @@
 }
 
 .vehicle-view {
-	margin: 2em 4em;
+	margin: 1.5em 2%;
+	width: 73%;
 	float: left;
+
+	.vehicle-images {
+		width: 40%;
+		float: left;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+			display: none;
+		}
+
+		.active {
+			display: block;
+		}
+	}
+
+
 }
 

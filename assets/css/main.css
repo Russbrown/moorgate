@@ -412,8 +412,21 @@ input::-moz-focus-inner {
 }
 
 .vehicle-view {
-  margin: 2em 4em;
+  margin: 1.5em 2%;
+  width: 73%;
   float: left;
+}
+.vehicle-view .vehicle-images {
+  width: 40%;
+  float: left;
+  overflow: hidden;
+}
+.vehicle-view .vehicle-images img {
+  width: 100%;
+  display: none;
+}
+.vehicle-view .vehicle-images .active {
+  display: block;
 }
 
 .footer {
